@@ -8,8 +8,8 @@ CODEBOOKS
 _________________________________________________________________________________
 
 load_data.ipynb: This contains the code to initally load the datasets.
-  Inputs: None
-  Outputs: census_df.pkl, status_df.pkl, grad_df.pkl
+  Inputs: food_access_2019.csv
+  Outputs: census_df.pkl, status_df.pkl, grad_df.pkl, food_df.pkl
 
 edu_data_cleaning.ipynb: This contains the code for joining and cleaning the 3 school realted datsets.
   Inputs: census_df.pkl, status_df,pkl, grad_df.pkl
@@ -22,17 +22,23 @@ food_access_cleaning: This contains the code for cleaning the food access data a
 data_analysis.ipynb: This contains final code for analysis of data.
   Inputs: final_df.pkl
 _________________________________________________________________________________
-FILES
+DATA FILES
 _________________________________________________________________________________
+education_datasets.zip
+  census_df.pkl
+  status_df.pkl
+  grad_df.pkl
 
-census_df.pkl
-status_df.pkl
-grad_df.pkl
-edu_df.pkl
-final_df.pkl
+food_datasets.zip
+  food_access_2019.csv
+  food_df.pkl
+
+joined_datasets.zip
+  edu_df.pkl
+  final_df.pkl
 
 _________________________________________________________________________________
-Data Sources
+DATA SOURCES
 _________________________________________________________________________________
 
 Urban Institue Education Data Portal: https://educationdata.urban.org/documentation/schools.html#overview
